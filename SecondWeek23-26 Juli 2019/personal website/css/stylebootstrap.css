@@ -1,0 +1,63 @@
+body {
+  font-family: "Lato";
+}
+.colored {
+  background-color: #303841;
+}
+.order {
+  padding: 3% 5% 7%;
+}
+
+/* Home name */
+.name-holder {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.surname {
+  font-weight: 500;
+  color: #ff5722;
+}
+
+/* Home */
+.inner-content {
+  text-align: center;
+  width: 100%;
+}
+.image-wrap {
+  width: 100px;
+  display: inline-block;
+  margin: auto;
+}
+.colored-home {
+  background-color: #eeeeee;
+}
+
+/* contact */
+.colored-contact {
+  background-color: #eeeeee;
+}
+label {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 13px;
+  color: #000;
+  min-width: 85px;
+  display: inline-block;
+}
+.short_info_wrap {
+  width: 100%;
+  height: auto;
+}
+
+/* Footer */
+.social-icon {
+  margin: 20px 10px;
+}
+
+.colored-about {
+  background-color: #00adb5;
+}
+
+.colored-skill {
+  background-color: #ff5722;
+}

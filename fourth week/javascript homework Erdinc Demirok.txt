@@ -1,0 +1,68 @@
+
+/*TRUNCATE STRING*/
+function truncateString(str,number){
+    var son= str.substring(0,number);
+    return  son;
+};
+
+
+
+/*CONFIRM ENDING*/
+function confirmending(text,str){
+    var a=text.length;
+    var b=str.length;
+    var ending=text.substring((a-b),a);
+
+    if (str==ending){
+        return true;
+    }else {return false;}
+};
+
+
+/* SECOND TO MINUTE*/
+
+function secondtominute(second){
+     var a=Math.floor(second/60);
+     var b=second%60;
+	return console.log(a+' minute '+b+' seconds');
+};
+
+
+/*REMOVE STRING*/
+
+function removestring(str,first){
+
+return str.replace(first,'' );
+
+};
+
+
+/* REPLACE STRING */
+
+function replacestring(str,first,second){
+
+return str.replace(first, second);
+
+};
+
+
+/* BIG NUMBER */
+function bignumber(value){
+
+return value=value+1;
+
+};
+
+/*CALCULATOR */'
+function calculator(first,second,process){
+
+    if(process=='/'){
+        return console.log(first/second);
+    }else { if ( process=='+'){
+        return console.log(first+second);
+    }else { if (process=='-'){
+        return console.log(first-second);
+    }else { if(process=='*'){
+        return console.log(first*second);
+    }}}}
+};

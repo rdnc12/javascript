@@ -2,7 +2,7 @@
 /*TRUNCATE STRING*/
 function truncateString(str,number){
     var son= str.substring(0,number);
-    return  son;
+    return  console.log(son+ "...");
 };
 
 

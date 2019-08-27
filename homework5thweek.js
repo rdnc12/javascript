@@ -171,3 +171,90 @@ function countLetters(wanted,arrayString) {
     return count;
 }
 console.log(countLetters('e', ['erdincv','eeee']));
+
+/*TRUNCATE STRING*/
+function truncateString(str, number) {
+    var son = str.substring(0, number);
+    return console.log(son + "...");
+};
+
+
+
+/*CONFIRM ENDING*/
+function confirming(text, str) {
+    var a = text.length;
+    var b = str.length;
+    var ending = text.substring((a - b), a);
+
+    if (str == ending) {
+        return true;
+    } else { return false; }
+};
+
+
+/* SECOND TO MINUTE*/
+
+function secondtominute(second) {
+
+    var minute = Math.floor(second / 60);
+    var sec = second % 60;
+
+    if (minute < 1) {
+        return console.log(sec + ' seconds')
+    }
+    else {
+        if (minute == 1) {
+            return console.log(minute + ' minute ' + sec + ' seconds')
+        } else {
+            return console.log(minute + ' minutes ' + sec + ' seconds');
+        }
+    }
+
+};
+
+secondtominute(135);
+
+/*REMOVE STRING*/
+
+function removestring(str, first) {
+
+    return str.replace(first, '');
+
+};
+
+
+/* REPLACE STRING */
+
+function replacestring(str, first, second) {
+
+    return str.replace(first, second);
+
+};
+
+
+/* BIG NUMBER */
+function bignumber(value) {
+
+    return value = value + 1;
+
+};
+
+/*CALCULATOR */
+function calculator(first, second, process) {
+
+    if (process == '/') {
+        return console.log(first / second);
+    } else {
+        if (process == '+') {
+            return console.log(first + second);
+        } else {
+            if (process == '-') {
+                return console.log(first - second);
+            } else {
+                if (process == '*') {
+                    return console.log(first * second);
+                } else { alert('Please type a valid operator.') }
+            }
+        }
+    }
+};
